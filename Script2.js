@@ -139,7 +139,7 @@ function Points() {
   document.getElementById("food").innerHTML = "" + foodInt2 + "";
   document.getElementById("point").innerHTML = "" + resInt2 + "";
 }
-setInterval(domTime,180000)
+setInterval(domTime,600000)
 function domTime(){
             domInt2 = domInt - 1
             domInt = domInt2
@@ -180,12 +180,6 @@ function domTime(){
          document.getElementById("point").innerHTML = "" + resInt2 + "";
          document.getElementById("money").innerHTML = "" + monInt2 + "";
          document.getElementById("pop").innerHTML = "" + popInt2 + "";
-}
-setInterval(resTime,300000)
-function resTime(){
-            resInt2 = resInt + 1
-            resInt = resInt2
-	  document.getElementById("point").innerHTML = "" + resInt2 + "";
 }
 function pause(){
 	alert("Paused \n Click OK to continue.");
